@@ -7,7 +7,10 @@
     <title>Ano Atual</title>
 </head>
 <body>
-    $atual = $_GET["ano"];
-    echo"O ano atual é $atual";
+    <?php
+    $atual = $_GET["a"];
+    echo "<h2><b>O ano atual é $atual</b><h2>";
+    echo "<br>O ano anterior é " . --$atual; // pré-incremento
+    ?>
 </body>
 </html>
