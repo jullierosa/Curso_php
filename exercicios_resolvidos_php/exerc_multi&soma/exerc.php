@@ -12,7 +12,7 @@
         $n2 = $_GET["b"];
         $tipo = $_GET["op"]; 
         echo "Os valores foram $n1 e $n2";
-        $r = ($tipo == "s")?$n1+$n2:$n1*$n2;// se eu colocar o valor "s" em "op", será verdadeiro e fará a soma. Se colocarmos outra letra automaticamente será feito a multiplicação.Isso pq o operador unário não é uma estrutura condicional completa, ele apenas faz comparações básicas de 2 valores.
+        $r = ($tipo == "s")?$n1+$n2:$n1*$n2;/* se eu colocar o valor "s" em "op", será verdadeiro e fará a soma. Se colocarmos outra letra automaticamente será feito a multiplicação.Isso pq o operador unário não é uma estrutura condicional completa, ele apenas faz comparações básicas de 2 valores.*/
         echo " O resultado será $r";
     ?>
 </body>
