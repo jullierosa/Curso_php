@@ -7,6 +7,17 @@
     <title>Formulários</title>
 </head>
 <body>
-    
+   <h2><b>FORMULÁRIO</b></h2> 
+   <form method="get" action="02dados.php">
+       Nome: <input type="text" name="nome"><br>
+       Ano de Nascimento: <input type="number" name="ano"><br/>
+       <fieldset><legend>Sexo</legend>
+        <input type="radio" name="sexo" id="masc" value="homem"/>
+        <label for="masc">Masculino</label><br/>
+        <input type="radio" name="sexo" id="fem" value="feminino" checked/>
+        <label for="fem">Feminino</label>
+       </fieldset><br/>
+       <input type="submit" value="Enviar"/>
+   </form>
 </body>
 </html>
