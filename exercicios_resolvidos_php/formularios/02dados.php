@@ -14,5 +14,6 @@
         $idade = date("Y") - $ano;
         echo "<b> $nome, é do sexo $sexo e tem $idade anos </b>";
     ?>
+    <a href="form.html">voltar</a>
 </body>
 </html>
