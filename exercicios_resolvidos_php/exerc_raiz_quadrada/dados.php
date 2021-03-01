@@ -8,9 +8,9 @@
 </head>
 <body>
     <?php
-        $valor = $_GET["v"];
+        $valor = $_GET["v"];#numero enviado pela URL
         echo "O valor digitado e enviado foi $valor";
-        echo "</br><b>A RAIZ QUADRADA de $valor é </b>" .sqrt($valor);
+        echo "</br><b>A RAIZ QUADRADA de $valor é </b>" . number_format (sqrt($valor),2);#number_format deixa a resposta da raiz quadrada menor.
     ?>
 </body>
 </html>
