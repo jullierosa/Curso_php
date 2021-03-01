@@ -12,5 +12,6 @@
         echo "O valor digitado e enviado foi $valor";
         echo "</br><b>A RAIZ QUADRADA de $valor é </b>" . number_format (sqrt($valor),2);#number_format deixa a resposta da raiz quadrada menor.
     ?>
+    <a href="exerc.html">voltar</a>
 </body>
 </html>
