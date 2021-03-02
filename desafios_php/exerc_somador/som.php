@@ -10,8 +10,7 @@
     <?php 
      $n1 = 3;//declaração de var
      $n2 = 5;//declaração de var
-     $soma = $n1 + $n2; //soma
-     echo "A soma de $n1 + $n2 é <b> $soma </b>"; //<b></b> deixa em NEGRITO
+     echo "A soma de $n1 + $n2 é <b> " .($n1+$n2); //<b></b> deixa em NEGRITO
     ?>
 </body>
 </html>
